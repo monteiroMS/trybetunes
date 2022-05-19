@@ -1,0 +1,53 @@
+.music-card {
+  align-items: center;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.music-card:hover {
+  box-sizing: border-box;
+  color: purple;
+  outline: 1px solid purple;
+  outline-offset: -5px;
+}
+
+.music-img {
+  border-radius: 5px;
+}
+
+.music-name {
+  flex-grow: 1;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.music-player::-webkit-media-controls-panel {
+  background-color: white;
+}
+
+.music-time {
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  width: 40px;
+}
+
+.music-card-fav-icon {
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 20px;
+}
+
+.music-card-fav-icon:hover {
+  cursor: pointer;
+}
+
+.favorito-container p {
+  display: none;
+}
+
+.favorito-container input {
+  display: none;
+}

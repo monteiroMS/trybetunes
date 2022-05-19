@@ -1,0 +1,47 @@
+.artist-card {
+  align-items: stretch;
+  background-color: white;
+  border: 1px solid purple;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  width: 200px;
+}
+
+.album-text-container {
+  align-items: center;
+  color: black;
+  display: flex;
+  flex-flow: column;
+  padding: 10px;
+  word-break: break-word;
+}
+
+.album-text-container p {
+  text-align: center;
+}
+
+.album-price-container {
+  align-items: center;
+  background-color: purple;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  color: white;
+  display: flex;
+  font-weight: 700;
+  height: 50px;
+  justify-content: center;
+}
+
+.album-price-container:hover {
+  color: #121216;
+}
+
+.artist-card img {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  height: 200px;
+  width: 200px;
+}

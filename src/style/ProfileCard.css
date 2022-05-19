@@ -1,0 +1,69 @@
+.profile-card-container {
+  background-color: white;
+  border: 2px solid purple;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  padding-left: 30px;
+  padding-right: 50px;
+}
+
+.user-tools-box {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  padding: 25px;
+}
+
+.user-info-box {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  padding-top: 0;
+}
+
+.user-info-box fieldset {
+  border: 1px solid purple;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.user-info-box fieldset legend {
+  color: purple;
+  font-weight: 700;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.user-info-box fieldset p {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: justify;
+}
+
+.user-tools-box img {
+  border-radius: 100%;
+  width: 200px;
+}
+
+.user-tools-box-link {
+  align-items: center;
+  background-color: white;
+  border: 2px solid purple;
+  border-radius: 10px;
+  color: purple;
+  display: flex;
+  font-size: 16px;
+  font-weight: 700;
+  height: 40px;
+  justify-content: center;
+  text-decoration: none;
+  width: 130px;
+}
+
+.user-tools-box-link:hover {
+  background-color: purple;
+  color: white;
+}

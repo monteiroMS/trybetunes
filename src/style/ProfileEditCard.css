@@ -1,0 +1,141 @@
+.user-tools-edit-container {
+  background-color: white;
+  border: 2px solid purple;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.user-tools-edit-box {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.user-tools-edit-box h2 {
+  flex-basis: 100%;
+  flex-grow: 1;
+}
+
+.user-image-options {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.intern-image-input {
+  display: none;
+}
+
+.image-input-label {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-input {
+  border: 2px solid purple;
+  border-radius: 10px;
+  font-size: 15px;
+  height: 30px;
+  margin-top: 18px;
+  padding: 5px;
+}
+
+.intern-image-input-label {
+  align-items: center;
+  background-color: white;
+  border: 2px solid purple;
+  border-radius: 10px;
+  color: purple;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-weight: 700;
+  height: 40px;
+  justify-content: center;
+  margin-right: 50px;
+}
+
+.intern-image-input-label:hover {
+  background-color: purple;
+  color: white;
+}
+
+.user-tools-edit-box img {
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+}
+
+.user-email-wrong {
+  color: red;
+}
+
+.user-email-right {
+  color: green;
+}
+
+.user-email-box {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+}
+
+.user-email-box input {
+  border: 2px solid purple;
+  border-radius: 10px;
+  font-size: 15px;
+  height: 30px;
+  padding: 5px;
+}
+
+.user-info-edit-box {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.edit-input-name {
+  border: 2px solid purple;
+  border-radius: 10px;
+  font-size: 15px;
+  height: 30px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding: 5px;
+  padding-left: 20px;
+  width: 150px;
+}
+
+.user-info-edit-box textarea {
+  border: 2px solid purple;
+  border-radius: 10px;
+  font-family: sans-serif;
+  padding: 10px;
+  resize: none;
+  text-align: justify;
+}
+
+.user-info-edit-box button {
+  align-items: center;
+  align-self: center;
+  background-color: white;
+  border: 2px solid purple;
+  border-radius: 10px;
+  color: purple;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-weight: 700;
+  height: 40px;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100px;
+}
+
+.user-info-edit-box button:hover {
+  background-color: purple;
+  color: white;
+}

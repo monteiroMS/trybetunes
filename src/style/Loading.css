@@ -1,0 +1,16 @@
+.loading-container {
+  align-items: center;
+  background-color: #e1d6de;
+  bottom: 0;
+  color: purple;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  position: absolute;
+  width: 100vw;
+}
+
+.loading-container img {
+  width: 100px;
+}
